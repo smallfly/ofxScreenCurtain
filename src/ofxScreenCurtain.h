@@ -21,6 +21,7 @@ class ofxScreenCurtain {
 		void update( float dt );
 		void draw();
 		void drawDebug();
+        void setColor(ofColor color);
 		void setScreenSize(ofRectangle screenSize);
 		
 		//main actions
